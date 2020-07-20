@@ -1,0 +1,15 @@
+---
+openapi: 3.0.1
+info:
+  title: API V1
+  version: v1
+paths:
+  "/":
+    get:
+      summary: Get the Home#index
+      tags:
+      - Home
+      responses:
+        '201':
+          description: You get the index
+          content: {}

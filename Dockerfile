@@ -24,6 +24,8 @@ RUN bundle install
 
 COPY . ./
 
+RUN rm tmp/pids/server.pid 
+
 EXPOSE 3000
 
 CMD bundle exec rails s -b 0.0.0.0
