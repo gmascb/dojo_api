@@ -4,12 +4,12 @@ info:
   title: API V1
   version: v1
 paths:
-  "/":
+  "/api/home/index":
     get:
       summary: Get the Home#index
       tags:
       - Home
       responses:
-        '201':
+        '200':
           description: You get the index
           content: {}

@@ -20,8 +20,7 @@ RSpec.configure do |config|
       info: {
         title: 'API V1',
         version: 'v1'
-      },
-      basePath: '/api',
+      }
     }
   }
 

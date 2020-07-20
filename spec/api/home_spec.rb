@@ -1,14 +1,15 @@
 require 'swagger_helper'
+# rake rswag:specs:swaggerize
 
-describe 'Home Index API' do
+describe 'Home Index API', swagger_doc: "v1/swagger.yaml" do
 
-    path '/' do
+    path '/api/home/index' do
   
       get 'Get the Home#index' do
         tags 'Home'
         consumes 'application/json'
         
-        response '201', 'You get the index' do
+        response '200', 'You get the index' do
             schema type: :object,
                     properties: {
                         hello_world: { type: :string }
