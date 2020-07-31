@@ -64,6 +64,9 @@ GEM
     byebug (11.1.3)
     concurrent-ruby (1.1.6)
     crass (1.0.6)
+    debase (0.2.4.1)
+      debase-ruby_core_source (>= 0.10.2)
+    debase-ruby_core_source (0.10.9)
     diff-lcs (1.4.4)
     erubi (1.9.0)
     ffi (1.13.1)
@@ -155,6 +158,8 @@ GEM
     rswag-ui (2.3.1)
       actionpack (>= 3.1, < 7.0)
       railties (>= 3.1, < 7.0)
+    ruby-debug-ide (0.7.2)
+      rake (>= 0.8.1)
     spring (2.1.0)
     spring-watcher-listen (2.0.1)
       listen (>= 2.7, < 4.0)
@@ -181,6 +186,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
+  debase
   listen (~> 3.2)
   pg (>= 0.18, < 2.0)
   puma (~> 4.1)
@@ -189,6 +195,7 @@ DEPENDENCIES
   rswag-api
   rswag-specs
   rswag-ui
+  ruby-debug-ide
   spring
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data
