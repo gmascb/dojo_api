@@ -1,5 +1,8 @@
 # README
 
+### LocalHost
+  * Postgres
+    * ```sudo apt-get install libpq-dev```
 ### Instaling with docker and compose
   * [Installing docker](https://docs.docker.com/engine/install/ubuntu/)
   * After docker is installed run
